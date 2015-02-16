@@ -4,8 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width:150px;
+    background: #ffffff;
+    z-index: 999;
+}
+
 body {
     padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    width: 100%;
+}
+
+.container {
+    margin-left: 150px;
 }
 
 .navbar-fixed-top .nav {
